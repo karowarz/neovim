@@ -4,4 +4,4 @@
 
 local opt = vim.opt
 opt.autowrite = true -- Enable auto write
-opt.colorcolumn = "80"
+opt.relativenumber = false -- Relative line numbers
