@@ -5,7 +5,7 @@ return {
     {
       "<leader>ol",
       ":Logsitter<cr>",
-      desc = "consol.log()",
+      desc = "Log it!",
     },
   },
 }
