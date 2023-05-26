@@ -1,5 +1,6 @@
 return {
   "tomasky/bookmarks.nvim",
+  lazy = false,
   keys = {
     {
       "<leader>sB",
