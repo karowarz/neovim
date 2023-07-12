@@ -4,7 +4,8 @@ return {
   event = "VimEnter",
   opts = function()
     local logo = table.concat({
-      "Cześć Karol.",
+      -- "Cześć Karol.",
+      "lasciate ogni speranza, voi ch’entrate",
     }, "\n")
 
     local pad = string.rep(" ", 22)

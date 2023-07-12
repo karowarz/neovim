@@ -3,9 +3,8 @@
 -- Add any additional keymaps here
 local map = vim.keymap.set
 
-map("n", "-", require("oil").open, { desc = "Open parent directory" })
 map("v", "y", "ygv<esc>", { desc = "copy and put cursor at the end" })
-map("n", "<cr>", "ciw", { desc = "change inside word" })
+-- map("n", "<cr>", "ciw", { desc = "change inside word" })
 map("n", "<leader>wh", "<c-w>h", { desc = "go to left window", remap = true })
 map("n", "<leader>wj", "<c-w>j", { desc = "go to lower window", remap = true })
 map("n", "<leader>wl", "<C-w>l", { desc = "Go to right window", remap = true })
