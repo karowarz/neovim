@@ -11,5 +11,10 @@ return {
       ":DiffviewClose <CR>",
       desc = "Close Diffview",
     },
+    {
+      "<leader>od",
+      ":DiffviewOpen<CR>",
+      desc = "Open Diffview",
+    },
   },
 }
